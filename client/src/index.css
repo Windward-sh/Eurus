@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+
+  --font-serif: "Inknut Antiqua", "Iowan Old Style", Palatino, serif;
+
+}
