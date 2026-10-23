@@ -1,14 +1,18 @@
+import { Logo } from "./Logo";
+
 export function App() {
 
   return (
 
-    <main className="grid min-h-screen place-items-center bg-[#1c1c1c] px-6 text-[#f4efe4]">
+    <main className="grid min-h-screen place-items-center bg-[#0e0e0e] px-6 font-sans text-[#e8e2d6]">
 
-      <div className="text-center">
+      <div className="flex flex-col items-center text-center">
 
-        <h1 className="font-serif text-6xl font-medium tracking-tight sm:text-7xl">Windward</h1>
+        <Logo className="mb-8 h-20 sm:h-24" />
 
-        <p className="mt-3 font-serif text-lg">Coming Soon</p>
+        <h1 className="text-6xl tracking-tight sm:text-7xl">Windward</h1>
+
+        <p className="mt-3 font-body text-lg text-[#8a857c]">Coming Soon</p>
 
       </div>
 
