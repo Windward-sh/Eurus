@@ -14,7 +14,7 @@ export function ServiceCard({ title, description, href }: ServiceCardProps) {
 
       <div>
 
-        <h2 className="font-body text-lg font-medium tracking-tight text-[#fafafa]">{title}</h2>
+        <h3 className="font-body text-lg font-medium tracking-tight text-[#fafafa]">{title}</h3>
 
         <p className="mt-1 font-body text-sm text-[#737373]">{description}</p>
 
